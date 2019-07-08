@@ -2487,13 +2487,12 @@
 			top: 0.25em;
 		}
 
-		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
+		.image.fit {			
+  		 	 display: block;
+    		margin: 0 auto 40px;
+    		width: 60%;
 		}
-
-			.image.fit img {
+        	.image.fit img {
 				width: 100%;
 			}
 
@@ -2654,7 +2653,12 @@
 					ul.actions.fit.small li {
 						padding: 0 0 0 0.5em;
 					}
-
+@media screen and (max-width: 980px){
+.image.fit {			
+  		 	
+    		width: 100%;
+		}
+}
 			@media screen and (max-width: 480px) {
 
 				ul.actions {
