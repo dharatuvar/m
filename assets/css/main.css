@@ -2119,7 +2119,7 @@
 			}
 
 		.flex.flex-4 .col {
-			width: 22%;
+			width: 17%;
 		}
 
 		.flex.flex-tabs {
@@ -2140,7 +2140,7 @@
 		@media screen and (max-width: 980px) {
 
 			.flex.flex-4 .col {
-				width: 48%;
+				width: 21%;
 			}
 
 			.flex.flex-tabs ul {
@@ -2160,7 +2160,7 @@
 		@media screen and (max-width: 736px) {
 
 			.flex.flex-2 .col, .flex.flex-3 .col, .flex.flex-4 .col {
-				width: 100%;
+				width: 21%;
 				-moz-order: 2;
 				-webkit-order: 2;
 				-ms-order: 2;
@@ -2195,6 +2195,17 @@
 
 		}
 
+
+@media screen and (max-width: 590px) {
+
+			.flex.flex-2 .col, .flex.flex-3 .col, .flex.flex-4 .col {
+				width: 100%;
+				-moz-order: 2;
+				-webkit-order: 2;
+				-ms-order: 2;
+				order: 2;
+			}
+}
 /* Form */
 
 	form {
@@ -2490,7 +2501,7 @@
 		.image.fit {			
   		 	 display: block;
     		margin: 0 auto 40px;
-    		width: 60%;
+    		width: 100%;
 		}
         	.image.fit img {
 				width: 100%;
@@ -2653,7 +2664,7 @@
 					ul.actions.fit.small li {
 						padding: 0 0 0 0.5em;
 					}
-@media screen and (max-width: 980px){
+@media screen and (max-width: 900px){
 .image.fit {			
   		 	
     		width: 100%;
@@ -2886,9 +2897,7 @@
 			z-index: 99;
 		}
 
-		.wrapper header {
-			margin-bottom: 4em;
-		}
+		
 
 			@media screen and (max-width: 736px) {
 
@@ -3928,3 +3937,8 @@
 			}
 
 		}
+
+.pad
+{
+	padding-bottom: 40px;
+}
